@@ -20,6 +20,6 @@ class Transfer
     if self.valid?
       @sender.balance -= amount
       @receiver.balance += amount
-      
+    end
   end
 end
